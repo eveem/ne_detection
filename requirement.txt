@@ -1,0 +1,4 @@
+six==1.11.0
+sklearn-crfsuite==0.3.6
+tabulate==0.8.2
+tqdm==4.23.4
