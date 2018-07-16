@@ -68,8 +68,8 @@ def train(features):
     crf.fit(x_trains, y_trains)
     return crf
     
-features = raw_train_to_features('./train/BEST/all_best.txt')
-MODEL = train(features)
-model_file_name = 'model_{}.pickle'.format(int(time.time()))
-with open('./models/{}'.format(model_file_name), 'wb') as handle:
-    pickle.dump(MODEL, handle, protocol = pickle.HIGHEST_PROTOCOL)
+# features = raw_train_to_features('./train/BEST/all_best.txt')
+# MODEL = train(features)
+# model_file_name = 'model_{}.pickle'.format(int(time.time()))
+# with open('./models/{}'.format(model_file_name), 'wb') as handle:
+#     pickle.dump(MODEL, handle, protocol = pickle.HIGHEST_PROTOCOL)
